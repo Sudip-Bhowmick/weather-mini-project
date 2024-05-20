@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+.weather_box {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.city_search {
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.city_search input {
+  border-radius: 40px 0 0 40px;
+  max-width: 360px;
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-right: none;
+}
+.city_search .search_icon {
+  width: 60px;
+  padding: 12px 16px 12px 12px;
+  border-radius: 0 40px 40px 0;
+  background-color: #ffe168;
+  cursor: pointer;
+}
+
+.display_data .degree {
+  font-size: 52px;
+  font-weight: 700;
+  margin: 30px 0 0 0;
+}
+.display_data .city {
+  font-size: 18px;
+}
+.display_data .error {
+  font-size: 22px;
+  padding-top: 20px;
+}/*# sourceMappingURL=style.css.map */
